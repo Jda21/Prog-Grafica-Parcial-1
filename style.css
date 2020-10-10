@@ -1,0 +1,44 @@
+:root{
+    --primary:#098eed ;
+    --light: #c6e3f7; 
+    --grey:#d1e1ed;
+
+}
+body{
+    overflow: hiddem;
+    font-family:'Mulish', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a:hover {
+     text-decoration: none;
+}
+
+.bg-primary { background-color: var(--primary) !important;}
+.bg-light { background-color: var(--light) !important; }
+.bg-grey { background-color: var(--grey) !important;}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container.logo{
+    padding: .875em 1.25em;
+}
+#sidebar-container.menu{
+    width: 18em;
+}
+.btn-search{
+    right: 5px;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5em;
+}
+
+.stat {
+    border-right: 1px solid var(--grey) ;
+}
